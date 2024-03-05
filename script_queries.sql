@@ -186,3 +186,16 @@ HAVING
                     fecha
             ) AS agrupado
     );
+
+--Forma 3:
+SELECT
+    fecha,
+    SUM(cantidad) AS inscritos_por_dia
+FROM
+    inscritos
+GROUP BY
+    fecha
+ORDER BY
+    inscritos_por_dia DESC
+LIMIT
+    1;

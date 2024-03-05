@@ -60,3 +60,9 @@ El presente repositorio contiene el código sql solución al desafío número 2 
 ##### Forma 2
 
 ![Codigo ejercicio 5 Forma 2](./screenshots/solucion_ejercicio_5_forma_2.png)
+
+##### Forma 3
+
+Si previa revisión de la tabla agrupada se observa que solo hay un día con la mayor cantidad de personas entonces la consulta se puede simplificar de este modo:
+
+![Codigo ejercicio 5 Forma 3](./screenshots/solucion_ejercicio_5_forma_3.png)
