@@ -116,7 +116,7 @@ ahora en adelante)
  */
 SELECT
     fecha,
-    COUNT(*)
+    SUM(cantidad)
 FROM
     inscritos
 GROUP BY
